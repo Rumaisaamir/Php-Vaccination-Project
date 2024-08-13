@@ -1,0 +1,142 @@
+#dashboard_main_box{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    width: cover;
+    height: 240vh;
+    /* margin-top: 120px; */
+    margin-top: 121px;
+    /* margin-top: 123px; */
+}
+.boxes{
+    width: 80%;
+    height: 240vh;
+    /* background-color: aqua; */
+    margin-top: 0;
+    /* background-color: #499ee90c; */
+}
+.card{
+    border: none;
+}
+.sidebar{
+  margin-top: 0;
+    height: 240vh;
+    width: 20%;
+    /* background-color: antiquewhite; */
+    text-align: justify;
+    border-right: 1px solid rgba(114, 114, 114, 0.473);
+}
+.sidebar_link{
+    list-style: none;
+    margin-top: 15px;
+}
+.anchor_li{
+    padding: 12px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+.anchor_1{
+     /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    font-size: 14px;
+    color: #3291e6;
+    white-space: nowrap;
+    transition: 0.3s;
+    border-bottom: 2px solid #3291e6;
+    padding: 5px 2px;
+}
+.bi{
+    font-size: 15px;
+}
+.anchor{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    font-size: 14px;
+    /* color: rgb(114, 114, 114); */
+    /* color: #2c4964; */
+    color: #2c4964da;
+    white-space: nowrap;
+    transition: 0.3s;
+    border-bottom: 2px solid #fff;
+    padding: 5px 2px;
+}
+.anchor:hover{
+    border-bottom: 2px solid #3291e6;
+    color: #3291e6;
+}
+#icon{
+    font-size: 25px;
+    color: #3291e6;
+}
+#headingsss{
+    color: #3291e6;
+}
+#oooo{
+    /* color: rgba(43, 43, 43, 0.705); */
+    /* color: #2c4964da; */
+    color: #2c4964da;
+}
+.table-dark{
+    background-color: #3291e6;
+}
+#textsss{
+    color: #3291e6;
+}
+#h2_ki_id::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #55a1e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+/* h1{
+    color: #55a1e4;
+} */
+
+
+/* Horizontal Scroll bar design */
+  #appointment_table_div::-webkit-scrollbar {
+    height: 8px; /* Horizontal scrollbar height */
+  }
+  
+  #appointment_table_div::-webkit-scrollbar-thumb {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color */
+    /* border-radius: 2px;  */
+  }
+  
+  #appointment_table_div::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Horizontal scrollbar track color */
+  }
+  
+  /* Horizontal Scroll bar hover effect */
+  #appointment_table_div::-webkit-scrollbar-thumb:hover {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color on hover */
+  }
+
+
+  .Approve{
+    background-color: #83baeb;
+  }
+  .Approve:hover{
+    background-color: #389ffa;
+  }
+  .Deny{
+    background-color: rgb(255, 110, 110);
+  }
+  .Deny:hover{
+    background-color: rgb(253, 68, 68);
+  }
+
+  @media (min-width: 2185px) {
+    #appointment_table_div{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,159 @@
+/* user */
+
+/* Horizontal Scroll bar design */
+#appointment_table_div_user::-webkit-scrollbar {
+    height: 8px; /* Horizontal scrollbar height */
+  }
+  
+  #appointment_table_div_user::-webkit-scrollbar-thumb {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color */
+    /* border-radius: 2px;  */
+  }
+  
+  #appointment_table_div_user::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Horizontal scrollbar track color */
+  }
+  
+  /* Horizontal Scroll bar hover effect */
+  #appointment_table_div_user::-webkit-scrollbar-thumb:hover {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color on hover */
+  }
+
+  /* Hospital */
+
+  /* Horizontal Scroll bar design */
+#appointment_table_div_doctor::-webkit-scrollbar {
+  height: 8px; /* Horizontal scrollbar height */
+}
+
+#appointment_table_div_doctor::-webkit-scrollbar-thumb {
+  background-color: #83baeb; /* Horizontal scrollbar thumb color */
+  /* border-radius: 2px;  */
+}
+
+#appointment_table_div_doctor::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Horizontal scrollbar track color */
+}
+
+/* Horizontal Scroll bar hover effect */
+#appointment_table_div_doctor::-webkit-scrollbar-thumb:hover {
+  background-color: #83baeb; /* Horizontal scrollbar thumb color on hover */
+}
+
+  /* Hospital */
+
+  /* Horizontal Scroll bar design */
+  #appointment_table_div_doctor_2::-webkit-scrollbar {
+    height: 8px; /* Horizontal scrollbar height */
+  }
+  
+  #appointment_table_div_doctor_2::-webkit-scrollbar-thumb {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color */
+    /* border-radius: 2px;  */
+  }
+  
+  #appointment_table_div_doctor_2::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Horizontal scrollbar track color */
+  }
+  
+  /* Horizontal Scroll bar hover effect */
+  #appointment_table_div_doctor_2::-webkit-scrollbar-thumb:hover {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color on hover */
+  }
+
+    /* Admin */
+
+  /* Horizontal Scroll bar design */
+  .appointment_table_div_admin::-webkit-scrollbar {
+    height: 8px; /* Horizontal scrollbar height */
+  }
+  
+  .appointment_table_div_admin::-webkit-scrollbar-thumb {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color */
+    /* border-radius: 2px;  */
+  }
+  
+  .appointment_table_div_admin::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Horizontal scrollbar track color */
+  }
+  
+  /* Horizontal Scroll bar hover effect */
+  .appointment_table_div_admin::-webkit-scrollbar-thumb:hover {
+    background-color: #83baeb; /* Horizontal scrollbar thumb color on hover */
+  }
+
+
+
+  #h2_ki_id_user::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #55a1e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+/* hospital */
+
+#h2_ki_id_doctor::after{
+     content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #55a1e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+#h2_ki_id_doctor_2::after{
+  content: "";
+ position: absolute;
+ display: block;
+ width: 40px;
+ height: 3px;
+ background: #55a1e4;
+ bottom: 0;
+ left: calc(50% - 20px);
+}
+#edit_btns{
+    background-color: #83baeb;
+    color: white;
+}
+#delete_btns{
+    background-color: rgb(255, 110, 110);
+    color: white;
+}
+#edit_btns:hover{
+    background-color: #389ffa;
+    color: white;
+}
+#delete_btns:hover{
+    background-color: rgb(253, 68, 68);
+    color: white;
+}
+#confirm_btns{
+    background-color: #83baeb;
+    color: white;
+}
+
+/* hospital */
+
+#approve_btns{
+  background-color: #83baeb;
+  color: white;
+}
+#doctor_delete_btns{
+  background-color: rgb(255, 110, 110);
+  color: white;
+}
+#approve_btns:hover{
+  background-color: #389ffa;
+  color: white;
+}
+#doctor_delete_btns:hover{
+  background-color: rgb(253, 68, 68);
+  color: white;
+}

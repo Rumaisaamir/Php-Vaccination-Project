@@ -1,0 +1,56 @@
+#approve_form {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #7fbaef;
+  border-radius: 5px;
+}
+
+#approval_text{
+    color: #2c4964da;
+    margin-bottom: 10px;
+}
+
+#emailss{
+    width: 860px;
+    padding: 9px;
+    border: 1px solid #7fbaef;
+    border-radius: 3px;
+}
+
+#doctor_back_btns{
+    background-color: rgb(110, 255, 110); /* Changed to green */
+    color: white;
+  }
+#doctor_back_btns:hover{
+    background-color: rgb(68, 253, 68);
+    color: white;
+  }
+
+  #generate_div{
+    width: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+#generate_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+#generate_div_searchbar:focus {
+    outline: none;
+    border-color: #1977cc;
+}
+
+#emailss:focus{
+  outline: none !important;
+  border-color: #7fbaef !important;
+}
+
+#reason:focus{
+  outline: none !important;
+  border-color: #7fbaef !important;
+}
